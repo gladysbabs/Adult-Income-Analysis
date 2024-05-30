@@ -1,6 +1,8 @@
 # Adult-Income-Analysis
 Analysing how various features in the Adult dataset contribute to an individual's income level.
 - Visuals of the features: educational-num & marital-status which were among the top 10 features from my permutation importances.produce. These explanatory visualizations show the relationship between the feature and the target: Income.
+
+
 **Income vs educational-num**
 
   
