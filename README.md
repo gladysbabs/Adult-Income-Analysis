@@ -2,10 +2,11 @@
 Analysing how various features in the Adult dataset contribute to an individual's income level.
 
 ## Reproducibility
-1. Create and activate a Python environment.
+1. Create and activate a **Python 3.11** environment.
 2. Install the pinned dependencies with `pip install -r requirements.txt`.
 3. Keep `adult.csv` in the repository root.
-4. Open `Project_4__Part1&2(Core)_Gladys_Babirye.ipynb`, restart the kernel, and run all cells from top to bottom.
+4. Open `Project_4__Part1&2(Core)_Gladys_Babirye.ipynb`, restart the `python3` kernel, and run all cells from top to bottom.
+5. The notebook reads data through the local `dw_use` helper and writes reproducible artifacts to `outputs/` and `figures/`. Each saved artifact also gets a `.provenance.json` sidecar with runtime and source metadata.
 
 - Visuals of the features: educational-num & marital-status which were among the top 10 features from my permutation importances.produce. These explanatory visualizations show the relationship between the feature and the target: Income.
 
