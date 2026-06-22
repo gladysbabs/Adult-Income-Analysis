@@ -1,5 +1,12 @@
 # Adult-Income-Analysis
 Analysing how various features in the Adult dataset contribute to an individual's income level.
+
+## Reproducibility
+1. Create and activate a Python environment.
+2. Install the pinned dependencies with `pip install -r requirements.txt`.
+3. Keep `adult.csv` in the repository root.
+4. Open `Project_4__Part1&2(Core)_Gladys_Babirye.ipynb`, restart the kernel, and run all cells from top to bottom.
+
 - Visuals of the features: educational-num & marital-status which were among the top 10 features from my permutation importances.produce. These explanatory visualizations show the relationship between the feature and the target: Income.
 
 
